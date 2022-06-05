@@ -1,4 +1,7 @@
-# android_picture_selector
+# flutter_media_picker
+
+**Before you read further: This flutter plugin is only supported for android as of now**
+
 Opens native picture selector activity and returns selected file's path
 You can choose Image, Videos or Both!
 
