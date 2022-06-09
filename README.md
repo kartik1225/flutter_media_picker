@@ -6,8 +6,8 @@ Opens native picture selector activity and returns selected file's path
 You can choose Image, Videos or Both!
 
 <p float="center">
-  <img src="https://raw.githubusercontent.com/kartik1225/flutter_media_picker/master/assets/1.jpeg" width="180" />
-  <img src="https://raw.githubusercontent.com/kartik1225/flutter_media_picker/master/assets/2.jpeg" width="180" /> 
+  <img src="https://raw.githubusercontent.com/kartik1225/flutter_media_picker/master/assets/1.jpeg" width="200" />
+  <img src="https://raw.githubusercontent.com/kartik1225/flutter_media_picker/master/assets/2.jpeg" width="200" /> 
 </p>
 
 ## Prerequisites
