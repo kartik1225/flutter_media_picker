@@ -2,6 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:media_picker/media_picker.dart';
 import 'package:media_picker/media_picker_platform_interface.dart';
 import 'package:media_picker/media_picker_method_channel.dart';
+import 'package:media_picker/utils.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 class MockMediaPickerPlatform 
@@ -10,6 +11,12 @@ class MockMediaPickerPlatform
 
   @override
   Future<String?> getPlatformVersion() => Future.value('42');
+
+  @override
+  Future<MediaPickerResult> openPictureSelector(MediaType mediaType, int? maxSelect, SelectMode? selectMode) {
+    // TODO: implement openPictureSelector
+    throw UnimplementedError();
+  }
 }
 
 void main() {
